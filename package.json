@@ -1,0 +1,19 @@
+{
+  "name": "my-app-yubo",
+  "version": "1.0.0",
+  "description": "app Demo",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "files": [
+	"dist",
+	"package.json",
+	"package-lock.json",
+	"README.md"
+  ],
+  "author": "yubo",
+  "scripts": {
+    "tsc": "tsc",
+    "start:prod": "node dist/server.js",
+    "prepare": "npm run tsc"
+  }
+}
